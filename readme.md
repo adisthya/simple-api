@@ -4,6 +4,12 @@ Simple API using [json-server](https://https://github.com/typicode/json-server) 
 
 ## Getting Started
 
+Before starting the server, install the required packages.
+
+```bash
+npm install
+```
+
 To start the server, type the following command.
 
 ```bash
@@ -21,6 +27,8 @@ POST /guests
 PUT /guests/:id
 DELETE /guests/:id
 ```
+
+Access your API from [http://localhost:3344](http://localhost:3344)
 
 ## Documentation
 
