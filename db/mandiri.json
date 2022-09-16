@@ -1,0 +1,6 @@
+{
+  "guests": [
+    { "id": 1, "name": "John Thor", "phone": "123456", "email": "john.thor@mail.com", "address": "Jakarta"},
+    { "id": 1, "name": "Moon Young", "phone": "234567", "email": "moon.young@mail.com", "address": "Bandung"}
+  ]
+}
