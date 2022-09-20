@@ -1,6 +1,32 @@
 {
   "guests": [
-    { "id": 1, "name": "John Thor", "phone": "123456", "email": "john.thor@mail.com", "address": "Jakarta"},
-    { "id": 1, "name": "Moon Young", "phone": "234567", "email": "moon.young@mail.com", "address": "Bandung"}
+    {
+      "id": "l88avic3",
+      "name": "John Thor",
+      "phone": "123456",
+      "email": "john.thor@mail.com",
+      "address": "Jakarta"
+    },
+    {
+      "id": "l88cltbn",
+      "name": "Moon Young",
+      "phone": "234567",
+      "email": "moon.young@mail.com",
+      "address": "Bandung"
+    }
+  ],
+  "lockers": [
+    {
+      "id": "l88cltbn",
+      "number": 1,
+      "shoes": 0,
+      "isOpen": true
+    },
+    {
+      "id": "l88avic3",
+      "number": 2,
+      "shoes": 0,
+      "isOpen": false
+    }
   ]
 }
