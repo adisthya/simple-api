@@ -21,15 +21,14 @@ server.use((req, res, next) => {
 })
 
 server.post('/login', (req, res, next) => {
-  const { username, password } = req.body
-  const token = Buffer.from(`${username}:${password}`).toString('base64')
-  const { password: dbPwd, ...user } = users[ token ];
+  try {
+    const { username, password } = req.body
+    const token = Buffer.from(`${username}:${password}`).toString('base64')
+    const { password: dbPwd, ...user } = users[ token ];
 
-  if (!user) {
-    res.status(400).json({ message: 'Invalid username and/or password.'})
-  }
-  else {
     res.json({ ...user, token });
+  } catch (error) {
+    res.status(400).json({ message: 'Invalid username and/or password.'})
   }
 })
 
