@@ -10,23 +10,19 @@ Before starting the server, install the required packages.
 npm install
 ```
 
-To start the server, type the following command.
+To start the server without access control, type the following command.
 
 ```bash
 npm start
 ```
 
-To add more data, edit `db/generic.json` file.
+To start the server with access control, type the following command.
 
-There is only one resource provided.
-
-```text
-GET /guests
-GET /guests/:id
-POST /guests
-PUT /guests/:id
-DELETE /guests/:id
+```bash
+npm run start:auth
 ```
+
+To add more data, edit `db/generic.json` file.
 
 Access your API from [http://localhost:3344](http://localhost:3344)
 

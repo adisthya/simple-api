@@ -1,15 +1,22 @@
 {
-  "name": "react-backend",
+  "name": "simple-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple API for training purpose.",
+  "main": "server.js",
   "scripts": {
     "start": "json-server -p 3344 -w ./db/generic.json -r routes.json -d 1000 --nc",
     "start:auth": "json-server -p 3344 -d 1000 -w ./db/generic.json -r routes.json -m ./middlewares/auth.js ./middlewares/login.js --nc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adisthya/simple-api.git"
+  },
+  "author": {
+    "name": "Adisthya Rahmadyan",
+    "url": "https://github.com/adisthya"
+  },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
