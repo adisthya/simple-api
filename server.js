@@ -14,13 +14,14 @@ server.use(jsonServer.bodyParser)
 server.use(jsonServer.rewriter({ '/api/*': '/$1' }))
 
 server.use((req, res, next) => {
-  if (!req.url.includes('/login'))
-    console.log('authorization token:', req.get('authorization'));
-
-  next();
+  if (!req.url.includes('/login') && !req.get('authorization')) {
+    res.status(401).json({ message: 'Missing the required authorization token' })
+  } else {
+    next();
+  }
 })
 
-server.post('/login', (req, res, next) => {
+server.post('/login', (req, res) => {
   try {
     const { username, password } = req.body
     const token = Buffer.from(`${username}:${password}`).toString('base64')
