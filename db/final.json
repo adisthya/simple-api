@@ -1,0 +1,87 @@
+{
+
+  "transactions": [
+    {
+      "id": 1,
+      "unitId": 3,
+      "residentId": 1,
+      "transactionDate": "",
+      "rentStartDate": "",
+      "rentEndDate": "",
+      "billingDate": "",
+      "period": null,
+      "price": 550000000,
+      "profit": 50000000
+    }
+  ],
+  "residents": [
+    {
+      "id": 1,
+      "fullname": "Agus",
+      "email": "agus@mail.com",
+      "phone": "123456",
+      "maritalStatus": "single",
+      "dependents": 0,
+      "birthDate": "2000-08-01"
+    },
+    {
+      "id": 2,
+      "fullname": "Septi",
+      "email": "septi@mail.com",
+      "phone": "234567",
+      "maritalStatus": "single",
+      "dependents": 0,
+      "birthDate": "2000-09-01"
+    },
+    {
+      "id": 3,
+      "fullname": "Okta",
+      "email": "okta@mail.com",
+      "phone": "345678",
+      "maritalStatus": "single",
+      "dependents": 0,
+      "birthDate": "2000-10-01"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "unitCode": "10AA",
+      "floor": 10,
+      "rooms": 2,
+      "direction": 0,
+      "status": "available",
+      "balcony": true,
+      "furnished": true,
+      "rentPrice": 4000000,
+      "rentSchema": "monthly",
+      "sellPrice": 500000000
+    },
+    {
+      "id": 2,
+      "unitCode": "10AB",
+      "floor": 10,
+      "rooms": 2,
+      "direction": 2,
+      "status": "available",
+      "balcony": false,
+      "furnished": false,
+      "rentPrice": 3500000,
+      "rentSchema": "monthly",
+      "sellPrice": 400000000
+    },
+    {
+      "id": 3,
+      "unitCode": "10BA",
+      "floor": 10,
+      "rooms": 2,
+      "direction": 4,
+      "status": "sold",
+      "balcony": true,
+      "furnished": true,
+      "rentPrice": 5000000,
+      "rentSchema": "monthly",
+      "sellPrice": 500000000
+    }
+  ]
+}
