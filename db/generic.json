@@ -2,80 +2,19 @@
   "guests": [
     {
       "id": "l88avic3",
-      "name": "John Thor",
+      "firstName": "John",
+      "lastName": "Thor",
       "phone": "123456",
       "email": "john.thor@mail.com",
       "address": "Jakarta"
     },
     {
       "id": "l88cltbn",
-      "name": "Moon Young",
+      "firstName": "Jane",
+      "lastName": "Thor",
       "phone": "234567",
       "email": "moon.young@mail.com",
       "address": "Bandung"
-    }
-  ],
-  "lockers": [
-    {
-      "id": "l88cltbn",
-      "number": 1,
-      "shoes": 0,
-      "isOpen": true
-    },
-    {
-      "id": "l88avic3",
-      "number": 2,
-      "shoes": 0,
-      "isOpen": false
-    }
-  ],
-  "todos": [
-    {
-      "id": 1,
-      "text": "Learn React",
-      "completed": true
-    },
-    {
-      "id": 2,
-      "text": "Learn Redux",
-      "completed": false,
-      "color": "purple"
-    },
-    {
-      "id": 3,
-      "text": "Build something fun!",
-      "completed": false,
-      "color": "blue"
-    },
-    {
-      "id": 4,
-      "text": "Makan",
-      "color": "green",
-      "completed": false
-    },
-    {
-      "id": 5,
-      "text": "Makan",
-      "color": "green",
-      "completed": false
-    },
-    {
-      "id": 6,
-      "text": "Mandi",
-      "color": "blue",
-      "completed": false
-    },
-    {
-      "id": 7,
-      "text": "Mandi",
-      "color": "blue",
-      "completed": false
-    },
-    {
-      "id": 8,
-      "text": "Mandi",
-      "color": "blue",
-      "completed": false
     }
   ]
 }

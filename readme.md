@@ -16,15 +16,9 @@ To start the server without access control, type the following command.
 npm start
 ```
 
-To start the server with access control, type the following command.
-
-```bash
-npm run start:auth
-```
-
 To add more data, edit `db/generic.json` file.
 
-Access your API from [http://localhost:3344](http://localhost:3344)
+Access your API from [http://localhost:4000](http://localhost:4000)
 
 ## Documentation
 
