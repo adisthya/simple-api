@@ -1,5 +1,4 @@
 {
-  "port": 3344,
-  "delay": 1500,
-  "watch": true
+  "port": 4000,
+  "delay": 1000
 }

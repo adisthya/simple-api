@@ -4,10 +4,8 @@
   "description": "Simple API for training purpose.",
   "main": "server.js",
   "scripts": {
-    "start": "json-server -p 3344 -w ./db/generic.json -r routes.json -d 1000 --nc",
-    "start:aja": "json-server -p 3344 -w ./db/generic.json -r routes.json",
-    "start:auth": "json-server -p 3344 -d 1000 -w ./db/generic.json -r routes.json -m ./middlewares/auth.js ./middlewares/login.js --nc",
-    "start:final": "json-server -p 3344 -d 1000 -w ./db/final.json -r routes.json -m ./middlewares/auth.js ./middlewares/login.js --nc",
+    "start": "node server",
+    "start:default": "json-server -p 4000 -w ./db/generic.json -r routes.json -d 1000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +19,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "nanoid": "^4.0.0",
     "json-server": "^0.17.0"
   }
 }

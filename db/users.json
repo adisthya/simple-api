@@ -2,11 +2,19 @@
   "YWRtaW46YWRtaW4=": {
     "username": "admin",
     "password": "admin",
-    "fullname": "Jono Administrator"
+    "role": "staff",
+    "fullname": "Administrator"
   },
-  "ZGVtbzpkZW1v": {
-    "username": "demo",
-    "password": "demo",
-    "fullname": "Joni Pendemo"
+  "c3RhZmY6c3RhZmY=": {
+    "username": "staff",
+    "password": "staff",
+    "role": "staff",
+    "fullname": "Pegawai Apartemen"
+  },
+  "c2FsZXM6c2FsZXM=": {
+    "username": "sales",
+    "password": "sales",
+    "role": "staff",
+    "fullname": "Sales Apartemen"
   }
 }
